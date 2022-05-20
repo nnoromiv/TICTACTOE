@@ -1,0 +1,106 @@
+:root {
+    --text_align: center;
+    --color: orangered
+}
+
+#main {
+    text-align: center;
+}
+
+h1,
+h6,
+#instruction {
+    color: var(--color);
+    text-align: var(--text_align);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    max-width: 220px;
+    max-height: 150px;
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#btn {
+    width: 100px;
+    height: 50px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+}
+
+#btn:hover {
+    background-color: white;
+    color: orangered;
+    border-radius: 20px;
+}
+
+#player {
+    font-size: 30px;
+    color: orangered;
+}
+
+@media screen and (min-width:425px) {
+    #b1,
+    #b2,
+    #b3,
+    #b4,
+    #b5,
+    #b6,
+    #b7,
+    #b8,
+    #b9 {
+        max-width: 120px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    #b1,
+    #b2,
+    #b3,
+    #b4,
+    #b5,
+    #b6,
+    #b7,
+    #b8,
+    #b9 {
+        max-width: 80px;
+    }
+}
+
+@media screen and (min-width:320px) {
+    #b1,
+    #b2,
+    #b3,
+    #b4,
+    #b5,
+    #b6,
+    #b7,
+    #b8,
+    #b9 {
+        max-width: 80px;
+    }
+}

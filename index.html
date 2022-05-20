@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICTACTOE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+
+        <h6>Instructions of game</h6>
+        <p id="instruction">
+            1. Game starts with just an opponent tap on any part of the box.<br> 2.First player starts as Player <b>X</b><br> 3.Second player is Player <b>O</b>
+        </p>
+        <br><br>
+        <input type="text" name="" id="b1" onclick="playGame(); playXOI();" readonly>
+        <input type="text" name="" id="b2" onclick="playGame(); playXOII();" readonly>
+        <input type="text" name="" id="b3" onclick="playGame(); playXOIII();" readonly>
+        <br><br>
+        <input type="text" name="" id="b4" onclick="playGame(); playXOIV();" readonly>
+        <input type="text" name="" id="b5" onclick="playGame(); playXOV();" readonly>
+        <input type="text" name="" id="b6" onclick="playGame(); playXOVI();" readonly>
+        <br><br>
+        <input type="text" name="" id="b7" onclick="playGame(); playXOVII();" readonly>
+        <input type="text" name="" id="b8" onclick="playGame(); playXOVIII();" readonly>
+        <input type="text" name="" id="b9" onclick="playGame(); playXOIX();" readonly>
+        <br><br><br>
+        <button id="btn" onclick="resetGame();">RESET</button>
+        <br>
+        <p id="player"></p>
+    </div>
+</body>
+
+</html>
